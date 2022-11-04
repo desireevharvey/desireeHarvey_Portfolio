@@ -1,0 +1,39 @@
+
+nav {
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  border-radius: 1rem;
+  display: inline;
+  padding: 8px;
+}
+
+a:hover {
+  background-color: #5ec4c6;
+  opacity: 1;
+}
+
+
+
+.big-image {
+  height: 65vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
+.big-image2 {
+  height: 25vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
+* {cursor: url(https://cur.cursors-4u.net/symbols/sym-7/sym632.ani), url(https://cur.cursors-4u.net/symbols/sym-7/sym632.png), auto !important;} /* End https://www.cursors-4u.com 
