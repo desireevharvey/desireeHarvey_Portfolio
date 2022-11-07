@@ -1,3 +1,5 @@
+* {cursor: url(https://cur.cursors-4u.net/symbols/sym-7/sym632.ani), url(https://cur.cursors-4u.net/symbols/sym-7/sym632.png), auto !important;} /* End https://www.cursors-4u.com */
+
 
 nav {
   color: black;
@@ -16,9 +18,17 @@ a:hover {
   opacity: 1;
 }
 
+body {
+  background-image: linear-gradient(to right,rgb(205, 195, 195), rgb(58, 157, 166));
+  font-family: 'Montserrat', sans-serif;
+  filter: grayscale(25%);
+}
 
+#title {
+  color: black;
+}
 
-.big-image {
+#big-image {
   height: 65vh;
   width: 100vw;
   position: relative;
@@ -36,4 +46,39 @@ a:hover {
   background-image: url('https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
 }
 
-* {cursor: url(https://cur.cursors-4u.net/symbols/sym-7/sym632.ani), url(https://cur.cursors-4u.net/symbols/sym-7/sym632.png), auto !important;} /* End https://www.cursors-4u.com 
+.modalOne {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  transform: scale(1.1);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 24rem;
+  border-radius: 0.5rem;
+}
+
+.close-button {
+  float: right;
+  width: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  background-color: lightgray;
+}
+
+.close-button:hover {
+  background-color: darkgray;
+}
+
